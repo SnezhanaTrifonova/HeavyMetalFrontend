@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HeavyMetal - add Sportsman</title>
+    <link rel="stylesheet" href="css/static.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="header__logo">
+                <img src="./image/hm.jpg" alt="heavy-metal-header">
+            </div>
+            <nav class="header__nav">
+                <a href="index.html" class="button">Список спортсменов</a>
+                <a href="subscription.html" class="button">Список абонементов</a>
+                <a href="addSportsman.html" class="button  button__active">Добавить спортсмена</a>
+            </nav>
+            <hr>
+        </header>
+
+        <section class="content">
+            <h1>Добавить спортсмена:</h1>
+            <form id="sportsmanForm">
+
+                <label for="id">Идентификатор:</label><br>
+                <input class="sportsman_id" type="text" id="id" name="id"><br>
+
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="surname">Фамилия:</label><br>
+                <input type="text" id="surname" name="surname"><br>
+
+                <label for="barcode">Штрих-код:</label><br>
+                <input type="text" id="barcode" name="barcode"><br>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+    </div>
+</body>
+<script src="js/AddSportsman.js"></script>
+
+</html>

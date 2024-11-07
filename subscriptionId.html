@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/static.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HeavyMetal</title>
+
+</head>
+
+
+<body>
+<div class="container">
+    <header id="header">
+        <div class="header__logo">
+            <img src="./image/hm.jpg" alt="heavy-metal-header">
+        </div>
+        <nav class="header__nav">
+            <a href="index.html" class="button">Список спортсменов</a>
+            <a href="subscription.html" class="button  button__active">Список абонементов</a>
+            <a href="addSportsman.html" class="button">Добавить спортсмена</a>
+        </nav>
+        <hr>
+    </header>
+    <section class="content">
+        <a class="button button_delete">Удалить абонемент</a>
+
+        <h1>Изменение абонемента:</h1>
+        <form id="subscriptionForm">
+
+
+            <input class="subscription_id" type="text" id="id" name="id"><br>
+
+            <label for="name">Название:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="count_visits">Колличество посещений:</label><br>
+            <input type="text" id="count_visits" name="count_visits"><br>
+
+            <label for="price">Цена:</label><br>
+            <input type="text" id="price" name="price"><br>
+
+            <label for="action_time">Время действия:</label><br>
+            <input type="text" id="action_time" name="action_time"><br>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</div>
+</body>
+<script src="js/subscriptionId.js"></script>
+</html>

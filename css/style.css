@@ -1,0 +1,98 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+}
+
+li:hover {
+    background-color: #e8603f;
+}
+
+.name, .surname, .barcode, .count_visits, .price, .action_time, .purchased_subscription {
+    font-weight: 700;
+    border: 1px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: #222222;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sportsman_id, .subscription_id, .id {
+    display: none;
+}
+
+#searchInput {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 50px;
+    padding: 0 20px 0 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#visit_list {
+    max-width: 220px;
+    text-align: center;
+}
+
+/*header {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 10px;*/
+/*    background-color: #dd2902;*/
+/*}*/
+
+/*.header__logo img {*/
+/*    width: 100px;*/
+/*    height: auto;*/
+/*}*/
+
+/*nav {*/
+/*    display: flex;*/
+/*}*/
+
+/*.button-link {*/
+/*    display: inline-block;*/
+/*    padding: 10px 20px;*/
+/*    margin: 10px;*/
+/*    background-color: #222222;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.button-link:hover {*/
+/*    background-color: #dd2902;*/
+/*}*/
+
+/*h1 {*/
+/*    color: #dd2902;*/
+/*}*/
+
+/*ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*li {*/
+/*    background-color: #222222;*/
+/*    color: #FDFDFDFF;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 5px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*li:hover {*/
+/*    background-color: #dd2902;*/
+/*}*/

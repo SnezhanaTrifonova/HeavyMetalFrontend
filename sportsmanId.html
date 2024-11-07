@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HeavyMetal - add Sportsman</title>
+    <link rel="stylesheet" href="css/static.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <header id="header">
+        <div class="header__logo">
+            <img src="image/hm.jpg" alt="heavy-metal-header">
+        </div>
+        <nav class="header__nav">
+            <a href="index.html" class="button">Список спортсменов</a>
+            <a href="subscription.html" class="button">Список абонементов</a>
+            <a href="addSportsman.html" class="button">Добавить спортсмена</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section class="content">
+        <a class="button button_edit_sportsman">Изменить данные о спортсмене</a>
+        <a class="button button_delete">Удалить спортсмена</a>
+        <h1>Спортсмен:</h1>
+        <div id = 'sportsman_by_id'></div>
+        <ul id="athletesList">
+        </ul>
+
+        <h2>Список доступных абонементов</h2>
+        <ul id="purchased_subscriptions_list">
+        </ul>
+
+        <h2>Список посещений</h2>
+        <ul id="visit_list">
+        </ul>
+    </section>
+
+</div>
+</body>
+<script src="js/SportsmanId.js"></script>
+</html>
